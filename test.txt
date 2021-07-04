@@ -1,0 +1,15 @@
+Code:
+if __name__ == '__main__':
+    a = int(input())
+    b = int(input())
+    print(round(a // b, 2))
+    print(round(a / b, 2))
+
+
+Input:
+4
+3
+
+Output:
+ 1
+1.33
